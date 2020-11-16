@@ -15,7 +15,11 @@ int main()
     //The length of the both string are the same? Well then, I have to chack each character of them now!
 
      //I'll just sort both of the string at first
+    else
+    {
 
+    
+    
      int i,j,temp;
      for (i=0; i<m-1;i++)
      {
@@ -44,12 +48,10 @@ int main()
              printf("No\n");
              return 0;
          }
-         else
-         {
-             printf("Yes\n");
-             return 0;
-         }
+         
          
      }
-
+        printf("Yes\n");
+    }
+        return 0;
 }
