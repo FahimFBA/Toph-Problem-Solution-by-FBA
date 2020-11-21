@@ -44,7 +44,7 @@ int main()
      for (i=0; i<m;i++)
      {
          if (str1[i]!=str2[i])
-         {
+         { 
              printf("No\n");
              return 0;
          }
