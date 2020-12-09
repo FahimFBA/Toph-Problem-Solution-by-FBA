@@ -14,7 +14,7 @@ int main() {
    }
 
    if (prime == 1)
-      printf("Yes\n");
+      printf("Yes\n"); 
    else
       printf("No\n");
    return 0;
